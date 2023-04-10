@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="icon" rel="icon" href="img/logo.png" />
+    <link rel="stylesheet" href="test.css" />
+    <title>BMI Calculator</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="hero">
+        <nav>
+          <a href="#" class="logo">BMI<span>calculator </span></a>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="test.html">Test</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- kalkulator     -->
+    <section class="test" id="test">
+      <h1 class="heading">Check Your BMI</h1>
+      <p class="sub-heading">
+        Enter your weight and height below to check your BMI result
+      </p>
+      <br />
+      <div class="test-page">
+        <aside class="test-image">
+          <img src="img/gambar2.jpg" />
+        </aside>
+        <article class="test-info">
+          <div class="text-content">
+            <p class="sub-heading">
+              Put your weight in here (KG):
+              <input type="number" id="weight" placeholder="ex : 55" /><br />
+            </p>
+
+            <br />
+            <p>
+              Put your height in here (CM):
+              <input type="number" id="height" placeholder="ex : 165" /><br />
+            </p>
+
+            <br />
+            <button class="btn-hasil" id="btn">Calculate BMI</button><br />
+
+            <br />
+            <p id="output"></p>
+          </div>
+        </article>
+      </div>
+      <br />
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="index.html">About</a>
+        <a href="test.html">Test</a>
+      </div>
+      <p>©2023 All Right Reserved - By Devian Brantiasandhini</p>
+    </footer>
+  </body>
+</html>
